@@ -1,0 +1,15 @@
+name = input("Hello! What is your name? ")
+print(f"Nice to meet you {name}")
+age = int(input("How old are you? "))
+bot_age = 1
+age_gap = age - bot_age
+
+if age_gap >= 2:
+    print(f"You are {age_gap} years older than me since I am {bot_age}.")
+elif age_gap == 1:
+    print(f"You are {age_gap} year older than me since I am {bot_age}.")
+else:
+    print("We are the same age!")
+
+color = input("What is your favorite color? ")
+print(f"{color} is a beautiful color!")
